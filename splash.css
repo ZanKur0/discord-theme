@@ -1,0 +1,15 @@
+/* COLORS */
+:root {
+  --background: #fafbfc;
+  --text: rgb(0, 0, 0);
+  --font: "Roboto";
+}
+  
+#splash {
+  background: var(--background) !important;
+}
+
+.splash-inner .splash-text > span.splash-status {
+  color: var(--text) !important;
+  font-family: var(--font) !important;
+}

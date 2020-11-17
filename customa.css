@@ -34,6 +34,12 @@
 
 /* Some tweaks, feel free to remove / edit or make new ones */
 
+
+/* Streaming icon fix */
+.icon-3s6X1M > path {
+    fill: var(--ColAccent);
+}
+
 .winButtonClose-1HsbF-:hover {
 animation-name: gamer2;
   animation-duration: 10s;
@@ -246,4 +252,4 @@ html:not(#\20) #powercord-spotify-menu .colorDefault-2K3EoJ .checkbox-3s5GYZ {
 /* *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
 /* The import doesn't work. So I'm gonna add this as a placeholder */
 /* https://github.com/ZanKur0/Horizon-theme-highlight.js/ */
-.hljs-built_in,.hljs-link,.hljs-section,.hljs-selector-tag{color:#8931b9}.hljs-keyword{color:#8931b9}.hljs,.hljs-subst{color:#1a1c23}.hljs-title{color:#1d8991}.hljs-addition,.hljs-attr,.hljs-bullet,.hljs-meta,.hljs-name,.hljs-string,.hljs-symbol,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable{color:#da103f}.hljs-comment,.hljs-deletion,.hljs-quote{color:#1a1c23}.hljs-doctag,.hljs-keyword,.hljs-literal,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-strong,.hljs-title,.hljs-type{font-weight:700}.hljs-literal,.hljs-number{color:#da103f}.hljs-emphasis{font-style:bold}
+.hljs-built_in,.hljs-link,.hljs-section,.hljs-selector-tag{color:#8931b9}.hljs-keyword{color:#8931b9}.hljs,.hljs-subst{color:#1a1c23}.hljs-title{color:#1d8991}.hljs-addition,.hljs-attr,.hljs-bullet,.hljs-meta,.hljs-name,.hljs-string,.hljs-symbol,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable,.hljs-attribute{color:#da103f}.hljs-comment,.hljs-deletion,.hljs-quote{color:#1a1c23}.hljs-doctag,.hljs-keyword,.hljs-literal,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-strong,.hljs-title,.hljs-type{font-weight:700}.hljs-literal,.hljs-number{color:#da103f}.hljs-emphasis{font-style:bold}
