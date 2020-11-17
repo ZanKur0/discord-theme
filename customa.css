@@ -2,7 +2,8 @@
 @import url("https://customa.gitlab.io/Customa-Discord/Base/base.m.css");
 @import url("https://customa.gitlab.io/Customa-Discord/Base/color.m.css");
 @import url("https://customa.gitlab.io/Customa-Discord/Base/font.m.css");
-@import url("https://customa.gitlab.io/Customa-Discord/Base/lightThemeSupport.m.css");
+/* It doesn't work for some odd reason. */
+@import url("https://raw.githubusercontent.com/ZanKur0/Horizon-theme-highlight.js/master/horizon-light.m.css");
 
 :root {
   --ColAccent: rgb(255, 188, 230);
@@ -241,3 +242,8 @@ html:not(#\20) #powercord-spotify-menu .colorDefault-2K3EoJ .checkbox-3s5GYZ {
   90% {background-color: blue;}
   100% {background-color: blueviolet;}
 }
+
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
+/* The import doesn't work. So I'm gonna add this as a placeholder */
+/* https://github.com/ZanKur0/Horizon-theme-highlight.js/ */
+.hljs-built_in,.hljs-link,.hljs-section,.hljs-selector-tag{color:#8931b9}.hljs-keyword{color:#8931b9}.hljs,.hljs-subst{color:#1a1c23}.hljs-title{color:#1d8991}.hljs-addition,.hljs-attr,.hljs-bullet,.hljs-meta,.hljs-name,.hljs-string,.hljs-symbol,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable{color:#da103f}.hljs-comment,.hljs-deletion,.hljs-quote{color:#1a1c23}.hljs-doctag,.hljs-keyword,.hljs-literal,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-strong,.hljs-title,.hljs-type{font-weight:700}.hljs-literal,.hljs-number{color:#da103f}.hljs-emphasis{font-style:bold}

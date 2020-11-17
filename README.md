@@ -2,6 +2,8 @@
 
 This is my discord theme. It was a project for a friend but it ended up as a personal theme. This theme is used in my dotfiles.
 
+The theme for highlight.js can be found on [here]()
+
 ## Requirements
 
 - [Powercord](https://powercord.dev/)
