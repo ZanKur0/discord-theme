@@ -1,0 +1,9 @@
+{
+  "name": "Zankuro's Light theme",
+  "description": "Light theme for jordan#6969",
+  "version": "1.0.0",
+  "author": "Zankuro#1969",
+  "license": "The Unlicense",
+  "theme": "./Customa.css",
+  "splashTheme": "splash.scss"
+}

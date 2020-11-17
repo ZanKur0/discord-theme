@@ -1,0 +1,243 @@
+/* Base */
+@import url("https://customa.gitlab.io/Customa-Discord/Base/base.m.css");
+@import url("https://customa.gitlab.io/Customa-Discord/Base/color.m.css");
+@import url("https://customa.gitlab.io/Customa-Discord/Base/font.m.css");
+@import url("https://customa.gitlab.io/Customa-Discord/Base/lightThemeSupport.m.css");
+
+:root {
+  --ColAccent: rgb(255, 188, 230);
+  --ColAccent1: #FFBCE6;
+  --ColFontBright: #4b5054;
+  --ColFont: #2e3338;
+  --ColChat: #4b5054;
+  --ColFontPlaceholder: #2e3338;
+  --ColAppBG: #FDF0ED !important; /* Top thing*/
+  --ColBackground1:#FDF0ED !important; /* Everything else (user list channel icos etc...) */
+  --ColBackground2: #FDF0ED !important; /* Text, and voice channels */
+  --background-secondary: var(--ColBackground2); 
+  --interactive-active: var(--ColAccent);
+  --ColTransparent1: #FDF0ED !important;
+  --background-primary: #FDF0ED !important;
+  --channels-default: var(--ColChat);
+  --ColBorder: #ffc0d0;
+  --ColShadow: #e2d6d6;
+  --ColTransparent2: #fff1f1; /*e7e8e6*/
+  --ColTextSelection: var(--ColAccent);
+  --text-muted: var(--ColChat);
+  --ColFontSelectionColor: whitesmoke;
+  --ColSpoilerCovered: var(--ColChat);
+  --background-tertiary: var(--ColAccent) !important;
+  --background-modifier-hover: var(--ColAccent) !important;
+  --background-modifier-active: var(--ColAccent) !important;
+}
+
+/* Some tweaks, feel free to remove / edit or make new ones */
+
+.winButtonClose-1HsbF-:hover {
+animation-name: gamer2;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+}
+
+/* Button Hover */
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+  background-color: var(--ColAccent2);
+}
+
+/* User drag voice channels */
+.containerUserOver-2mv1jO:after {
+  background-color: rgb(255, 188, 230, .1);
+  border: 2px solid rgba(255, 188, 230, .5);
+}
+
+.selected-3s45Ha.item-PXvHYJ {
+  color: var(--ColAccent);
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+  color: #fff !important;
+  background-color: var(--ColAccent);
+}
+
+.unread-1xRYoj {
+  background-color: var(--ColAccent);
+}
+
+.liveSmall-1dy2uA {
+  background-color: var(--ColAccent) !important; 
+}
+
+.theme-light .container-3ISnnM { 
+  background-color: var(--ColBackground1);
+}
+
+.avatarSpeaking-2IGMRN {
+  box-shadow: inset 0 0 0 2px var(--ColAccent), inset 0 0 0 3px var(--background-secondary);
+}
+
+.modeUnread-1qO3K1 .icon-1DeIlz{
+  color: var(--ColAccent);
+}
+
+.name-23GUGE {
+  color: var(--channels-default) !important;
+}
+
+.cta-2DQ2ez {
+  background-color: var(--ColAccent);
+  color: var(--ColFont);
+}
+
+.button-1YfofB.buttonColor-7qQbGO:hover {
+box-shadow: 0px 0px 34px -1px var(--ColShadow);
+background-color: var(--ColAppBG);
+}
+
+.spoilerText-3p6IlD.hidden-HHr2R9 {
+  color: var(--ColBackground2);
+}
+
+.contents-18-Yxp {
+  color: var(--ColFontBright);
+}
+
+
+.content-1o0f9g {
+  background-color: var(--ColAccent2);
+  color:var(--ColFontSelectionColor);
+}
+
+.divider-JfaTT5 {
+  background-color: var(--ColAccent2);
+}
+
+.expandedFolderBackground-2sPsd-,
+expandedFolderIconWrapper-1xLaU- {
+  background-color: var(--ColTransparent2);
+}
+
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+  color: var(--ColFont);
+}
+
+.activity-11LB_k,
+.activityProfile-2bJRaP {
+  background-color: var(--ColAccent2) !important;
+}
+
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+  color: var(--ColChat) !important;
+  border-color: var(--ColFont);
+}
+
+.header-2o-2hj,
+.searchBar-6Kv8R2 {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.header-2o-2hj::before,
+.content-yTz4x3:before {
+  display: none;
+}
+
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.channel-2QD9_O.selected-aXhQR6[href="/channels/@me"] * {
+  color: var(--ColFontBright) !important;
+}
+
+.scroller-2FKFPG::-webkit-scrollbar-track,
+.scrollerStore-390omS::-webkit-scrollbar-track,
+.scrollerTrack-1ZIpsv > .scroller-2FKFPG::-webkit-scrollbar-track,
+.scrollerTrack-1ZIpsv > .scrollerStore-390omS::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  background-color: var(--ColTransparent2) !important;
+}
+
+::selection {
+  color: var(--ColFontSelectionColor);
+  background: var(--ColTextSelection) !important;
+}
+
+.blockquoteDivider-2hH8H6 {
+  background-color: var(--ColAccent) !important;
+}
+
+.closedFolderIconWrapper-15K9MK {
+  background-color: transparent;
+}
+
+/* Code and embeds left border */
+.grid-1nZz7S, .markup-2BOw-j code {
+  border-left: 3px solid var(--ColAccent);
+}
+
+/* Spotify */
+
+html:not(#\20) .powercord-spotify,
+html:not(#\20) #powercord-spotify-menu {
+  --gradient: linear-gradient(
+    120deg,
+    var(--ColAccent),
+    var(--ColAccent2)
+  ) !important;
+}
+html:not(#\20) #powercord-spotify-menu .barFill-23-gu-,
+html:not(#\20) .powercord-spotify .spotify-seek-bar-progress,
+html:not(#\20) #powercord-spotify-menu .colorDefault-2K3EoJ.focused-3afm-j {
+  background-image: var(--gradient) !important;
+}
+html:not(#\20) .powercord-spotify .spotify-buttons button .contents-18-Yxp .fas,
+html:not(#\20) .powercord-spotify .spotify-extra-controls .active,
+html:not(#\20)
+  #powercord-spotify-menu
+  .disabled-1WRMNA[id^="powercord-spotify-menu-devices--"],
+html:not(#\20)
+  #powercord-spotify-menu
+  #powercord-spotify-menu-repeat
+  + div
+  [id*="-active"] {
+  color: transparent !important;
+  background-image: var(--gradient) !important;
+  -webkit-background-clip: text !important;
+  padding-top: 0.2em !important;
+  margin-top: -0.2em !important;
+}
+html:not(#\20) .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
+  color: white !important;
+}
+html:not(#\20) #powercord-spotify-menu .colorDefault-2K3EoJ .checkbox-3s5GYZ {
+  color: transparent !important;
+}
+
+@keyframes gamer3 {
+  from {background-color: red;}
+  to {background-color: #FF007F;}
+}
+
+@keyframes gamer2 {
+  0% {background-color: red;}
+  7.69% {background-color: orange;}
+  15.38% {background-color: yellow;}
+  23.07% {background-color: chartreuse}
+  30.76% {background-color: rgb(0, 255, 0);}
+  38.45% {background-color: springgreen;}
+  46.14% {background-color: cyan;}
+  53.83% {background-color: #007fff;}
+  61.52% {background-color: blue;}
+  69.21% {background-color: violet;}
+  76.9% {background-color: magenta;}
+  84.59% {background-color: #FF007F;}
+}
+
+@keyframes gamer {
+  0% {background-color: red;}
+  10% {background-color: orangered;}
+  20% {background-color: orange;}
+  30% {background-color: yellow;}
+  40% {background-color: greenyellow;}
+  60% {background-color: rgb(0, 255, 0);}
+  80% {background-color: cyan;}
+  90% {background-color: blue;}
+  100% {background-color: blueviolet;}
+}
